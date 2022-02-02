@@ -1,0 +1,17 @@
+
+.myheader{
+  background: lightyellow;
+  padding: 20px;
+  border:  1px soild yellow;
+}
+.mynavbar{
+  background: lightskyblue;
+  padding: 20px;
+
+  height: 800px;
+}
+.my-body{
+  background: limegreen;
+  padding: 20px;
+  height: 800px;
+}

@@ -1,0 +1,13 @@
+.course{
+    background: lightyellow;
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    border:  1px soild yellow;
+    border-radius: 10px;
+    display: inline-block;
+    }
+
+    .h1{
+        text-align: center;
+    }
