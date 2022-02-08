@@ -4,6 +4,7 @@ import Header from './component/Header';
 import NavBar from './component/NavBar';
 import Courselist from './component/Courselist';
 import Cour from './component/Cour';
+import Course1 from './component/Course1';
 
 function App() {
   return (
@@ -19,13 +20,14 @@ function App() {
         </div>
 
         <div className='col-10 my-body'>
-          <Cour/>
-          <Courselist name="Angular" trainer="Vikas" startDate="15/02/2022" desc="Only for new join"/>
+         
+          {/* <Courselist name="Angular" trainer="Vikas" startDate="15/02/2022" desc="Only for new join"/>
           <Courselist name="React" trainer="Vishal" startDate="01/02/2022" desc="Anyone can join"/>
           <Courselist name="Spring" trainer="Rahul" startDate="25/02/2022" desc="Anyone can join"/>
           <Courselist name="Java" trainer="Shikar" startDate="26/02/2022" desc="Anyone can join"/>
           <Courselist name="Node" trainer="Rajesh" startDate="27/02/2022" desc="Anyone can join"/>
-          <Courselist name="JUnit" trainer="Raj" startDate="29/02/2022" desc="Anyone can join"/>
+          <Courselist name="JUnit" trainer="Raj" startDate="29/02/2022" desc="Anyone can join"/> */}
+          <Course1/>
         </div>
       </div>
     </div>
